@@ -14,5 +14,4 @@ run:
     - -c
     - |
       pip install pytest
-      ls -al
-      pytest test_mymodule.py
+      pytest concourse-test-repo/test_mymodule.py
