@@ -5,8 +5,5 @@ image_resource:
   type: docker-image
   source: { repository: ubuntu }
 
-inputs:
-  - name: tasks
-
 run:
-  path: ./test_script.sh
+  path: ./concourse-test-repo/tasks/test_script.sh
