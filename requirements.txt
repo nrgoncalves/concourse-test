@@ -1,0 +1,2 @@
+psycopg2
+git+https://git.unipart.io/nuno/ufos_forecaster
