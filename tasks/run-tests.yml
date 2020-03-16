@@ -6,5 +6,4 @@ image_resource:
   source: { repository: ubuntu }
 
 run:
-  path: pytest
-  args: [test_mymodule.py]
+  path: ./test_script.sh
