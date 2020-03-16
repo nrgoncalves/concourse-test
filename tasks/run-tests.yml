@@ -5,6 +5,9 @@ image_resource:
   type: docker-image
   source: { repository: python }
 
+inputs:
+  - name: concourse-test-repo
+
 run:
   path: /bin/sh
   args:
