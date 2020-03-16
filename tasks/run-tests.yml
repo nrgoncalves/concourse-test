@@ -14,4 +14,5 @@ run:
     - -c
     - |
       pip install pytest
+      ls -al
       pytest test_mymodule.py
