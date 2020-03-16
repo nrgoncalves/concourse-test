@@ -8,7 +8,7 @@ image_resource:
 run:
   path: /bin/sh
   args:
-    - c
+    - -c
     - |
       pip install pytest
       pytest test_mymodule.py
