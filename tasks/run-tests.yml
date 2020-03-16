@@ -6,4 +6,4 @@ image_resource:
   source: { repository: ubuntu }
 
 run:
-  path: ./concourse-test-repo/tasks/test_script.sh
+  path: ./concourse-test/tasks/test_script.sh
