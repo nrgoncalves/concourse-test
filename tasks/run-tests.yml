@@ -6,5 +6,9 @@ image_resource:
   source: { repository: ubuntu }
 
 run:
-  path: ls
-  args: ["..", "-al"]
+  path: /bin/sh
+  args:
+    - c
+    - |
+      pip install pytest
+      pytest test_mymodule.py
