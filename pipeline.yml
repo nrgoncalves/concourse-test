@@ -1,0 +1,15 @@
+---
+resources:
+  - name: concourse-test-repo
+    type: git
+    source:
+      uri: git@git.unipart.io:nuno/concourse-test.git
+      branch: master
+
+jobs:
+  - name: job-test-concourse
+    public: true
+    plan:
+      - get: concourse-test-repo
+      - task: run-tests
+        file: tasks/run-tests.yml
